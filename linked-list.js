@@ -52,6 +52,25 @@ toString()
   return string;
 }
 
+append(value) {
+  let current = this.head;
+  let newNode = new Node(value);
+  while(current !== null) {
+    current = current.pointsTo;
+    this.newNode++;
+  }
+
+  insertBefore(value, newValue) {
+    let current = this.head;
+    if (this.includes(value)) {
+      if(current.value === value) {
+        this.insert(newValue);
+      } else {
+        while ()
+      }
+    }
+  }
+}
 // includes(value)
 // {
 // }
